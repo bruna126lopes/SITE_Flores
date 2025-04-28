@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <div class="container-principal">
+        <div class="formulario">
+            <h1>Login</h1>
+            <form id="form-login" onsubmit="logar(event)">
+                <input type="text" id="usuario" placeholder="Usuário" required minlength="3" maxlength="15">
+                <input type="password" id="senha" placeholder="Senha" required minlength="4" maxlength="15">
+                <input type="submit" value="Entrar">
+            </form>
+            <p><a href="cadastro.html">Não tem conta? Cadastre-se</a></p>
+            <div class="voltar">
+                <a href="index.html">Voltar para Tela inicial</a>
+            </div>
+        </div>
+    </div>
+    <script src="/JavaScript/logar.js"></script>
+</body>
+</html>
